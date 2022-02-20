@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:background="@drawable/back"
+      android:gravity="center"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="213dp"
+        android:layout_height="67dp"
+        android:paddingStart="15dp"
+        android:paddingTop="15dp"
+        android:text="Gestion De Stock"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="20dp"
+      android:orientation="horizontal"
+      android:paddingStart="20dp"
+      android:paddingTop="20dp"
+      android:paddingEnd="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:text="Categorie"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/designation"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/lab"
+        android:gravity="center"
+        android:text="Alimentation"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="20dp"
+      android:orientation="horizontal"
+      android:paddingStart="20dp"
+      android:paddingEnd="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Article Info"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingStart="20dp">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:text="Libellé"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/labeled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="labeled"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+
+      android:layout_marginBottom="20dp"
+      android:orientation="horizontal"
+      android:paddingStart="20dp"
+      android:paddingEnd="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Unit price"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/unit_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.28"
+        android:hint="Price"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp">
+
+      <Button
+          android:id="@+id/add_button"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:background="@drawable/button"
+          android:text="Ajouter"
+          android:textColor="@color/white"
+          android:textStyle="bold" />
+
+      <Button
+          android:id="@+id/cancel_button"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:background="@drawable/button"
+          android:text="Annuler"
+          android:textColor="@color/white" />
+    </RelativeLayout>
+  </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

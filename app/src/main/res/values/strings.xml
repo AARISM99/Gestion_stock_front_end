@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">scolarite</string>
+  <string-array name="Categories">
+    <item>All Categories</item>
+    <item>Alimentary</item>
+    <item>Alimentary1</item>
+    <item>Alimentary2</item>
+    <item>Alimentary3</item>
+  </string-array>
+</resources>
